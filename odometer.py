@@ -14,7 +14,7 @@ def next_num(a,n):
     l = numbers(a)
    
     k = l.index(n)
-    if k == len(l) -1:
+    if k == len(l) - 1:
         return l[0]
     return l[k + 1]
      
@@ -27,7 +27,7 @@ def pre_num(a,n):
     return l[k - 1]
 
 
-a= int(input())
-n = int(input())
-print(pre_num(a,n),next_num(a,n))
+size = int(input())
+num = int(input())
+print(pre_num(size,num),next_num(size,num))
 
