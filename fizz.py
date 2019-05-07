@@ -6,6 +6,8 @@ def list_multiple(n):
             str += 'FIZZ'
         if i % 5 == 0:
             str += 'BUZZ'
+        if i % 7 == 0
+             str += "duzz"
         if len(str) != 0:
             l.append(str)
         else:
